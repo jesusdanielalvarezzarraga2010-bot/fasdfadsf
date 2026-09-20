@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Afiche: Movimiento de Países No Alineados</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background-color: #f4f1ea;
+            color: #1a1a1a;
+            line-height: 1.4;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .poster-container {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 1200px;
+            border: 2px solid #d3cbb8;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            padding: 40px;
+        }
+
+        /* Encabezado */
+        .header {
+            background-color: #1a2b4c;
+            color: #ffffff;
+            padding: 30px;
+            text-align: center;
+            border-bottom: 5px solid #b39b5e;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .header h2 {
+            font-size: 1.2em;
+            font-weight: normal;
+            color: #e0e6ed;
+            margin-bottom: 20px;
+        }
+
+        .students {
+            display: inline-block;
+            border: 1px solid #b39b5e;
+            padding: 10px 20px;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #b39b5e;
+        }
+
+        /* Diseño de columnas */
+        .grid-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .section {
+            background-color: #fdfcf9;
+            border: 1px solid #e5e0d3;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-top: 3px solid #1a2b4c;
+        }
+
+        .section-title {
+            font-size: 1.3em;
+            color: #1a2b4c;
+            border-bottom: 1px solid #d3cbb8;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        p {
+            font-size: 0.95em;
+            margin-bottom: 10px;
+            text-align: justify;
+            color: #333333;
+        }
+
+        /* Listas y principios */
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+            font-size: 0.95em;
+            color: #333333;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .principles ol {
+            margin-left: 30px;
+        }
+
+        .principles li {
+            padding-left: 5px;
+            border-bottom: 1px dashed #e5e0d3;
+            padding-bottom: 5px;
+        }
+
+        /* Línea de tiempo y Personajes */
+        .timeline-item, .character-item {
+            margin-bottom: 15px;
+        }
+
+        .timeline-date, .character-name {
+            font-weight: bold;
+            color: #b39b5e;
+            text-transform: uppercase;
+            font-size: 0.9em;
+            display: block;
+        }
+
+        .character-country {
+            font-style: italic;
+            color: #555555;
+            font-size: 0.85em;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        /* Pie de página / Conclusión */
+        .footer {
+            background-color: #e6e3da;
+            padding: 25px;
+            text-align: center;
+            margin-top: 20px;
+            border-left: 5px solid #1a2b4c;
+            border-right: 5px solid #1a2b4c;
+        }
+
+        .footer p {
+            font-weight: bold;
+            font-size: 1.05em;
+            color: #1a2b4c;
+            margin: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="poster-container">
+    
+    <div class="header">
+        <h1>El Movimiento de Países No Alineados</h1>
+        <h2>La Conferencia de Bandung (1955): Soberanía, descolonización y la consolidación del Tercer Mundo frente a la Guerra Fría</h2>
+        <div class="students">Estudiantes: Jesús Álvarez y Camilo Castillo</div>
+    </div>
+
+    <div class="grid-layout">
+        
+        <!-- Columna Izquierda -->
+        <div class="column">
+            
+            <div class="section">
+                <h3 class="section-title">1. Contexto Histórico: Posguerra y Bipolaridad</h3>
+                <p><strong>Fractura Bipolar:</strong> Al finalizar la Segunda Guerra Mundial, el orden internacional quedó fragmentado en dos bloques antagónicos: el bloque occidental capitalista (EE.UU. y la OTAN) y el bloque oriental comunista (URSS y el Pacto de Varsovia).</p>
+                <p><strong>Desmantelamiento Colonial:</strong> Asia y África vivieron una ola histórica de descolonización. Decenas de pueblos conquistaron su soberanía, pero nacían con economías empobrecidas y presiones geopolíticas para alinearse forzosamente.</p>
+            </div>
+
+            <div class="section">
+                <h3 class="section-title">2. La Conferencia de Bandung (1955)</h3>
+                <p>Celebrada en el histórico edificio Gedung Merdeka en Bandung (Indonesia). Participaron 29 delegaciones de naciones africanas y asiáticas recién emancipadas, representando al 54% de la población mundial.</p>
+                <p><strong>Objetivos:</strong> Fomentar la cooperación Sur-Sur, condenar absolutamente el colonialismo y el racismo, y preservar la soberanía sin someterse a los dictados de las superpotencias.</p>
+            </div>
+
+            <div class="section">
+                <h3 class="section-title">3. Línea de Tiempo Histórica</h3>
+                <div class="timeline-item">
+                    <span class="timeline-date">Abril - Mayo 1954 (Colombo)</span>
+                    Los Cinco de Colombo (Indonesia, India, Birmania, Ceilán, Pakistán) sientan las bases para la reunión afroasiática.
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">18 al 24 de Abril 1955 (Bandung)</span>
+                    Celebración de la cumbre afroasiática y proclamación de los 10 Principios.
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">Julio 1956 (Brioni)</span>
+                    Tito, Nehru y Nasser firman una declaración que transforma el espíritu afroasiático en un proyecto político neutral de alcance global.
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">Septiembre 1961 (Belgrado)</span>
+                    Fundación formal del Movimiento de Países No Alineados (NOAL) con 25 Estados miembros.
+                </div>
+            </div>
+
+            <div class="section">
+                <h3 class="section-title">4. ¿Por qué se circunscribe a la Guerra Fría?</h3>
+                <ul>
+                    <li>Respuesta del Tercer Mundo para evitar ser satélites de EE.UU. o la URSS.</li>
+                    <li>Mecanismo de autodefensa frente a la competencia geopolítica global.</li>
+                    <li>Herramienta para consolidar la descolonización sin someterse al neocolonialismo.</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Columna Derecha -->
+        <div class="column">
+            
+            <div class="section principles">
+                <h3 class="section-title">5. Los Diez Principios de Bandung</h3>
+                <ol>
+                    <li>Respeto por los derechos humanos y la Carta de las Naciones Unidas.</li>
+                    <li>Respeto de la soberanía y la integridad territorial de todas las naciones.</li>
+                    <li>Reconocimiento de la igualdad de todas las razas y naciones.</li>
+                    <li>Abstención de intervenciones o injerencias en los asuntos internos.</li>
+                    <li>Respeto del derecho de toda nación a defenderse individual o colectivamente.</li>
+                    <li>Abstención de participar en pactos de defensa para servir a las superpotencias.</li>
+                    <li>Abstención de realizar actos de agresión o uso de la fuerza.</li>
+                    <li>Arreglo pacífico de todas las controversias internacionales.</li>
+                    <li>Promoción del interés recíproco y de la cooperación mutua.</li>
+                    <li>Respeto por la justicia y las obligaciones internacionales.</li>
+                </ol>
+            </div>
+
+            <div class="section">
+                <h3 class="section-title">6. Personajes Principales</h3>
+                <div class="character-item">
+                    <span class="character-name">Sukarno</span>
+                    <span class="character-country">Presidente de Indonesia</span>
+                    Anfitrión de Bandung. Proclamó el despertar del Tercer Mundo y advirtió sobre el neocolonialismo económico e ideológico.
+                </div>
+                <div class="character-item">
+                    <span class="character-name">Jawaharlal Nehru</span>
+                    <span class="character-country">Primer Ministro de India</span>
+                    Ideólogo central de la diplomacia no alineada y promotor de la coexistencia pacífica (Panchsheel).
+                </div>
+                <div class="character-item">
+                    <span class="character-name">Gamal Abdel Nasser</span>
+                    <span class="character-country">Presidente de Egipto</span>
+                    Figura del panarabismo. Impulsó la defensa de la soberanía frente al imperialismo con el "no alineamiento positivo".
+                </div>
+                <div class="character-item">
+                    <span class="character-name">Josip Broz Tito</span>
+                    <span class="character-country">Presidente de Yugoslavia</span>
+                    Internacionalizó el movimiento al sumar a una nación europea independiente de la tutela soviética.
+                </div>
+                <div class="character-item">
+                    <span class="character-name">Zhou Enlai</span>
+                    <span class="character-country">Primer Ministro de la RP China</span>
+                    Desplegó una diplomacia de moderación, facilitando el consenso entre regímenes diversos.
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Pie de página -->
+    <div class="footer">
+        <p>Conclusión: La Conferencia de Bandung y la institucionalización del Movimiento de Países No Alineados representaron la mayor gesta de solidaridad del Sur Global. Al rehusarse a ser peones en el tablero de la Guerra Fría, estas naciones demostraron que la paz mundial no depende de la superioridad armamentística, sino de la soberanía incondicional y la coexistencia pacífica.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
